@@ -1,7 +1,16 @@
 package com.spring.database.app.spring_database_app.entity;
 
-public class Car {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.NamedQuery;
 
+@Entity
+@NamedQuery(name="find_all_cars",query ="select c from Car c")
+public class Car {
+	
+	@Id
+	@GeneratedValue
 	private int id;
 	private String brand;
 	private String model;
