@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.spring.database.app.spring_database_app.data.jpa.CarJpaRepository;
 import com.spring.database.app.spring_database_app.entity.Car;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringDatabaseJPAAppApplication implements CommandLineRunner {
 	
 	@Autowired

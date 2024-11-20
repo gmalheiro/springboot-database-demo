@@ -7,6 +7,7 @@ import jakarta.persistence.NamedQuery;
 
 @Entity
 @NamedQuery(name="find_all_cars",query ="select c from Car c")
+@NamedQuery(name="find_car_by_id",query="select c from Car c where c.id =:id")
 public class Car {
 	
 	@Id
