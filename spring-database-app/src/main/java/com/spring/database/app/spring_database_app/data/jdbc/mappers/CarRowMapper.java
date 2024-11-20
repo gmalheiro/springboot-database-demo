@@ -13,7 +13,7 @@ public class CarRowMapper implements RowMapper<Car>{
 	public Car mapRow(ResultSet rs, int rowNum) throws SQLException {
 		Car car = new Car();
 		car.setId(rs.getInt("id"));
-		car.setModel(rs.getString("name"));
+		car.setModel(rs.getString("model"));
 		car.setBrand(rs.getString("brand"));
 		return car;
 	}
