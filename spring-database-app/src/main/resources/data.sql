@@ -1,9 +1,9 @@
-create table car (
+/*create table car (
 	id integer not null,
 	model varchar(20) not null,
 	brand varchar(20) not null,
 	primary key(id)
-);
+);*/
 
 INSERT INTO car (id, model, brand) VALUES
 (10001, 'Civic', 'Honda'),

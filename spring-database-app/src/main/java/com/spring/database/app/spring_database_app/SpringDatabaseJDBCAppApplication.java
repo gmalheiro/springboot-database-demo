@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.spring.database.app.spring_database_app.data.jdbc.CarJdbcDao;
 import com.spring.database.app.spring_database_app.entity.Car;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringDatabaseJDBCAppApplication implements CommandLineRunner {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
